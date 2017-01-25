@@ -3,12 +3,12 @@ Bing-Wallpaper
 
 A Python3 Script to set the daily background image of www.bing.com as Desktop Wallpaper of Linux or Windows.
 
-I've used `feh` utility to set background in i3. Don't know if it works in other distros
+I've used `feh` utility to set background in i3. Don't know if it works in other distros. So you should install `feh` for this to work (obviously)
 
 #### HowTo Use:
 
 Just take a look at the 2-3 variables at the beginning of the script and change them to your needs. 
-The Script will download the daily pictures, so a extra directory for it is recommended.
+The Script will download the daily pictures in the same directory as the repo, you can change it inside the script.
 
 
 #### Note:

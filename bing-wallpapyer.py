@@ -14,12 +14,7 @@ import os
 
 #Variables:
 idx = '0' #defines the day of the picture: 0 = today, 1 = yesterday, ... 20.
-saveDir = './' #in Windows you might put two \\ at the end
-
-def setGnomeWallpaper(picPath):
-    os.system('gsettings set org.gnome.desktop.background picture-uri file://' + picPath)
-    return
-
+saveDir = './'
 
 #Getting the XML File
 usock = urlopen(
